@@ -1,0 +1,20 @@
+<!--miniprogram/pages/page1/pages/english/years/listen/listen.wxml-->
+<progress percent='{{percent}}' active='{{isDown}}' stroke-width='2' />
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell" bindtap='toAudioPerYear' id="{{index}}" wx:for="{{listenListYear}}" wx:key="{{item.value}}">
+      <view class="weui-cell__bd">{{item}}</view>
+  </label>
+</view>
+
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell">
+      <view class="weui-cell__bd">随试题播放听力</view>
+      <switch bindchange="switchChange"/>
+  </label>
+</view>
+
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell" bindtap='downloadFile'>
+      <view class="weui-cell__bd">听力答案</view>
+  </label>
+</view>

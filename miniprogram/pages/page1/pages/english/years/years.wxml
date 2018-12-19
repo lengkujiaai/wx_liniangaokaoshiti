@@ -1,0 +1,13 @@
+<!--miniprogram/pages/page1/pages/english/years/years.wxml-->
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell" bindtap='toDownload' id="{{index}}" wx:for="{{year}}" wx:key="{{item.value}}">
+      <view class="weui-cell__bd">{{item}}</view>
+  </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <navigator url="./listen/listen" >
+    <label class="weui-cell">
+      <view class="weui-cell__bd">英语真题听力</view>
+    </label>
+  </navigator>
+</view>

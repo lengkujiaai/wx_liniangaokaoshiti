@@ -1,0 +1,6 @@
+<!--miniprogram/pages/page1/pages/physical/years/years.wxml-->
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell" bindtap='toDownload' id="{{index}}" wx:for="{{year}}" wx:key="{{item.value}}">
+      <view class="weui-cell__bd">{{item}}</view>
+  </label>
+</view>

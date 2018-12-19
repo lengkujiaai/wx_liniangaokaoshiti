@@ -1,0 +1,11 @@
+/* miniprogram/pages/page1/page1.wxss */
+@import "../lib/weui.wxss";
+.btn{
+  width:40%;
+  margin-top: 3rpx;
+  background-color: #3CC51F;
+  color: #FFF;
+}
+.radio {
+  margin-right: 20rpx;
+}

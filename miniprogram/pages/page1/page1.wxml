@@ -1,0 +1,46 @@
+<!--miniprogram/pages/page1/page1.wxml-->
+<!--view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell " wx:for="{{year}}" wx:key="{{item.value}}">
+    <navigator url="../page1year/page1year?year={{index}}" >
+      <view class="weui-cell__bd">{{item}}</view>
+    </navigator>
+  </label>
+</view-->
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <!--navigator url="./pages/chinese/years/years" -->
+    <label class="weui-cell ">
+      <view bindtap="subject" id="chinese" class="weui-cell__bd">语文</view>
+      <view bindtap="subject" id="chineseAnswer" class="weui-cell__bd">语文答案</view>
+    </label>
+  <!--/navigator-->
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+    <label class="weui-cell ">
+      <view bindtap="subject" id="math" class="weui-cell__bd">数学</view>
+      <view bindtap="subject" id="mathAnswer" class="weui-cell__bd">数学答案</view>
+    </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+    <label class="weui-cell ">
+      <view bindtap="subject" id="english" class="weui-cell__bd">英语</view>
+      <view bindtap="subject" id="englishAnswer" class="weui-cell__bd">英语答案</view>
+    </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+    <label class="weui-cell ">
+      <view bindtap="subject" id="physical" class="weui-cell__bd">物理</view>
+      <view bindtap="subject" id="physicalAnswer" class="weui-cell__bd">物理答案</view>
+    </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+    <label class="weui-cell ">
+      <view bindtap="subject" id="chemistry" class="weui-cell__bd">化学</view>
+      <view bindtap="subject" id="chemistryAnswer" class="weui-cell__bd">化学答案</view>
+    </label>
+</view>
+<view class="page-section" class="weui-cells weui-cells_after-title">
+    <label class="weui-cell ">
+      <view bindtap="subject" id="biology" class="weui-cell__bd">生物</view>
+      <view bindtap="subject" id="biologyAnswer" class="weui-cell__bd">生物答案</view>
+    </label>
+</view>

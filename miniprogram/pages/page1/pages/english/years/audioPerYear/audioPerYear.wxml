@@ -1,0 +1,8 @@
+<!--miniprogram/pages/page1/pages/english/years/audioPerYear/audioPerYear.wxml-->
+<progress percent='{{percent}}' active='{{isDown}}' stroke-width='2' />
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell" bindtap='toAudio' id="{{index}}" wx:for="{{yearsAudioList}}" wx:key="{{item.value}}">
+      <view class="weui-cell__bd">{{item}}</view>
+  </label>
+</view>
+

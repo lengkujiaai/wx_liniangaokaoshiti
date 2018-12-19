@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page1/pages/english/years/years",
+    "pages/page1/pages/english/download/download",
+    "pages/page1/pages/chinese/years/years",
+    "pages/page1/pages/chinese/download/download",
+    "pages/page1/pages/math/download/download",
+    "pages/page1/pages/math/years/years",
+    "pages/page1/pages/biology/years/years",
+    "pages/page1/pages/biology/download/download",
+    "pages/page1/pages/chemistry/years/years",
+    "pages/page1/pages/physical/years/years",
+    "pages/page1/pages/physical/download/download",
+    "pages/page1/pages/chemistry/download/download",
+    "pages/page1/pages/english/years/listen/listen",
+    "pages/page1/pages/english/years/audioPerYear/audioPerYear"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "历年高考试题",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "试题库",
+        "pagePath": "pages/page1/page1",
+        "iconPath": "resources/image/wechat.png",
+        "selectedIconPath": "resources/image/wechatHL.png"
+      },
+      {
+        "text": "2018",
+        "pagePath": "pages/index/index",
+        "iconPath": "resources/image/wechat.png",
+        "selectedIconPath": "resources/image/wechatHL.png"
+      }
+    ]
+  }
+}

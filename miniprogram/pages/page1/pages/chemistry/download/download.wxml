@@ -1,0 +1,7 @@
+<!--miniprogram/pages/page1/pages/chemistry/download/download.wxml-->
+<progress percent='{{percent}}' active='{{isDown}}' stroke-width='2' />
+<view class="page-section" class="weui-cells weui-cells_after-title">
+  <label class="weui-cell " wx:for="{{yearList}}" wx:key="{{item.value}}">
+    <view class="weui-cell__bd" id="{{item.p}}" bindtap="downloadFile">{{item.p}}</view>
+  </label>
+</view>
